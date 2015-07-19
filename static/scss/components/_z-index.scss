@@ -1,0 +1,27 @@
+$z-index-01: 1;
+$z-index-02: 2;
+$z-index-03: 3;
+$z-index-04: 4;
+$z-index-05: 5;
+$z-index-06: 6;
+$z-index-07: 7;
+$z-index-08: 8;
+$z-index-09: 9;
+$z-index-10: 10;
+$z-index-11: 11;
+$z-index-12: 12;
+
+$z-layers: (
+        'top':                      $z-index-12,
+        'map-over':                 $z-index-07,
+        'figure':                   $z-index-02,
+        'article':                  $z-index-03,
+);
+
+@function z($layer) {
+    @if not map-has-key($z-layers, $layer) {
+        @warn "No z-index found in $z-layers map for `#{$layer}`. Property omitted.";
+    }
+
+    @return map-get($z-layers, $layer);
+}
