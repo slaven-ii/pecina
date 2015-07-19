@@ -15,8 +15,8 @@ require get_template_directory() . "/inc/vendors/AutoLoader.php";
 
 //Initialize the update checker.
 $example_update_checker = new ThemeUpdateChecker(
-    'angelo',                                            //Theme folder name, AKA "slug".
-    'https://raw.githubusercontent.com/degordian/dwp/master/angelo/manifest.json' //URL of the metadata file.
+    'pecina',                                            //Theme folder name, AKA "slug".
+    'https://raw.githubusercontent.com/slaven-ii/pecina/master/manifest.json' //URL of the metadata file.
 );
 
 /**
