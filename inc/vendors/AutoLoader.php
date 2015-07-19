@@ -17,7 +17,7 @@ class AutoLoader {
         "images" => "helpers/images",
         "relations" => "helpers/relations",
         "UpdateChecker" => "theme-update-checker",
-        "plugin-dependency" => "plugin-dependency",
+        //"plugin-dependency" => "plugin-dependency",
         "shortcodes" => "shortcodes",
      );
 
