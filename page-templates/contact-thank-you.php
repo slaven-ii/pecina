@@ -35,9 +35,9 @@ the_post();
                     <article class="thank-you">
                         <h4>Hvala</h4>
                         <p>
-                            Vaš e-mail je uspješno poslan! <br/>
-                            Cijenimo što nas kontaktirate i <br/>
-                            uskoro ćemo Vam odgovoriti.
+                            <?php _e('Vaš e-mail je uspješno poslan!', 'pecina'); ?> <br/>
+                            <?php _e('Cijenimo što nas kontaktirate i', 'pecina'); ?> <br/>
+                            <?php _e('uskoro ćemo Vam odgovoriti.', 'pecina'); ?>
                         </p>
 
                         <a class="green-btn" href="/">

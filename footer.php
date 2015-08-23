@@ -12,7 +12,7 @@
 <footer class="footer scroll-4" data-animation="on">
     <section class="green-line">
         <h3>
-            Kontakt
+            <?php _e('Kontakt', 'pecina'); ?>
         </h3>
     </section>
 
@@ -21,25 +21,25 @@
             <div class="col-12">
                 <div class="col-4 one-col-text">
                     <article class="left">
-                        <h4 class="green">kako do nas?</h4>
+                        <h4 class="green"><?php _e('kako do nas?', 'pecina'); ?></h4>
                         <span class="text">
-                            - autoput Zagreb - Ljubljana (E 70; A3) <br/>
-                            - izlaz Sv. Nedelja na prvom semaforu skrenite desno (stara Samoborska) <br/>
-                            - nakon 900 m stižete u Vrtlariju Pecina
+                            <?php _e('- autoput Zagreb - Ljubljana (E 70; A3)', 'pecina'); ?> <br/>
+                            <?php _e('- izlaz Sv. Nedelja na prvom semaforu skrenite desno (stara Samoborska)', 'pecina'); ?> <br/>
+                            <?php _e('- nakon 900 m stižete u Vrtlariju Pecina', 'pecina'); ?>
                         </span>
                     </article>
                 </div>
                 <div class="col-4 one-col-text">
                     <article class="middle">
                         <h4 class="green">
-                            <strong>kontakt</strong>
+                            <strong><?php _e('kontakt', 'pecina'); ?></strong>
                         </h4>
                         <span class="text">
-                            +385 1 3842 892 <br/>
-                            <span class="green">Jaroslav Pecina, dipl.ing.agr. –  hortikultura</span> <br/>
-                            +385 98 450 666 <br/>
-                            <span class="green">Jan Pecina, mag.ing.agr. – zaštita bilja</span> <br/>
-                            +385 98 1658 387 <br/>
+                            <?php _e('+385 1 3842 892', 'pecina'); ?> <br/>
+                            <span class="green"><?php _e('Jaroslav Pecina, dipl.ing.agr. –  hortikultura', 'pecina'); ?></span> <br/>
+                            <?php _e('+385 98 450 666', 'pecina'); ?> <br/>
+                            <span class="green"><?php _e('Jan Pecina, mag.ing.agr. – zaštita bilja', 'pecina'); ?></span> <br/>
+                            <?php _e('+385 98 1658 387', 'pecina'); ?> <br/>
                             <!-- <a href="mailto:info@pecina.hr">info@pecina.hr</a> -->
                         </span>
                         <a class="btn classic" style="margin-bottom: 15px;" href="/upit" target="_blank">upit</a>
@@ -48,7 +48,7 @@
                 <div class="col-4 one-col-text has-button">
                     <article class="right">
                         <h4 class="green">
-                            ADRESA
+                            <?php _e('ADRESA', 'pecina'); ?>
                         </h4>
                         <span class="text">
                             Vrtarija Pecina<br/>
