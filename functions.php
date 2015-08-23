@@ -9,7 +9,6 @@ add_image_size( 'gallery_full', 1333, 768, true );
 define("INCLUDE_PATH", get_template_directory() . "/inc/");
 define("TEMPLATE_PATH", get_template_directory() . "/");
 define("INCLUDE_URL", get_template_directory_uri());
-define('FS_METHOD','direct');
 
 require get_template_directory() . "/inc/vendors/AutoLoader.php";
 
@@ -117,6 +116,26 @@ function getDataURI($image, $wordpress = true, $mime = '') {
     return $dataUri;
 
 }
+
+function renderLanguageHeader() {
+    //TODO: please refactor with get_partial
+    global $sitepress;
+    $activeLanguages = $sitepress->get_ls_languages();
+    $listItems = '';
+    $activeLanguageCode = '';
+    //var_dump($activeLanguages); die();
+    foreach ($activeLanguages as $activeLang) {
+        if ($activeLang['active'] == '1') {
+            $activeLanguageCode = 'active';
+            //continue; //we dont want the active lang here
+        }
+        $img = " <img src=".bu('static/ui/svg/'.$activeLang['language_code'].'.svg') ." alt=".$activeLang['language_code']."/>";
+        $listItems .= sprintf('<li class="%s"><a href="%s" class="%s">%s</a></li>', $activeLanguageCode, $activeLang['url'], $activeLang['language_code'], $img);
+    }
+    $output = sprintf('<ul class="social">%s</ul>', $listItems);
+    echo $output;
+}
+
 
 class Walker_Menu extends Walker_Nav_Menu {
 
@@ -400,7 +419,3 @@ function add_js_shortcode_popup()
 
 <?php
 }
-?>
-
-
-

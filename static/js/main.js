@@ -93,9 +93,9 @@ $.fn.clickOff = function(callback, selfDestroy) {
                 var animation = 'Power3.easeInOut';
 
 
-                var tweenL = TweenMax.staggerFromTo(colText.find('article.left'), 0.65,
+                var tweenL = TweenMax.staggerFromTo(colText.find('article.left'), 0.95,
                     { scale: 1, opacity: 0},
-                    { opacity: 1, delay: 0.4, ease:animation  }
+                    { opacity: 1, delay: 0.5, ease:animation  }
 
                 );
                 var tweenM = TweenMax.staggerFromTo(colText.find('article.middle'), 0.65,
@@ -103,9 +103,9 @@ $.fn.clickOff = function(callback, selfDestroy) {
                     { opacity: 1, delay: 0.2, ease:animation }
 
                 );
-                var tweenR = TweenMax.staggerFromTo(colText.find('article.right'), 0.65,
+                var tweenR = TweenMax.staggerFromTo(colText.find('article.right'), 0.95,
                     { scale: 1, opacity: 0},
-                    { opacity: 1, delay: 0.4, ease:animation  }
+                    { opacity: 1, delay: 0.5, ease:animation  }
 
                 );
 

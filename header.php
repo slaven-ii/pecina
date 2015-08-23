@@ -28,10 +28,10 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <script src='<?php echo bu('static/js/vendor/modernizr/modernizr.js'); ?>' async="async"></script>
+    <script src='<?php echo bu('static/js/vendor/modernizr/modernizr.js'); ?>' defer></script>
 
     <!-- Page styles -->
-    <link rel="stylesheet" href="<?php echo bu('static/css/compress.css?r=1'); ?>" />
+    <link rel="stylesheet" href="<?php echo bu('static/css/compress.css?r=2'); ?>" />
 
 	<?php wp_head(); ?>
 </head>
@@ -78,6 +78,7 @@
 
             <?php wp_nav_menu( array( 'theme_location' => 'header-menu','walker' => new Walker_Menu() ,'container' => '', 'container_class' => false, ) ); ?>
 
+            <?php  renderLanguageHeader() ?>
 
         </div>
     </div>

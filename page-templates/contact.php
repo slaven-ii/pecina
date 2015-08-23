@@ -45,7 +45,7 @@ Tu smo za Vas.
                     <span class="green">Jan Pecina</span> <br/>
                     +385 98 1658 387
 
-<ul class="social">
+            <ul class="social">
                         <li>
                             <a href="#" class="fb">
                                 <img src="<?= bu('static/ui/svg/fb.svg'); ?>" alt="Facebook"/>

@@ -25,7 +25,7 @@ get_header();
                     <?php the_field('naslovna_tekst_desno'); ?>
                 </span>
                     <figcaption>
-                        <div class="header-box">
+                        <div class="header-box" style=" top: 5%; bottom: none;">
                             <span class="hand-written" style="margin-left: -20px;">Radno vrijeme:</span>
                             <div class="home-box-inner">
                                 <span class="label">pon-pet:</span>

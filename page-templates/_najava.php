@@ -20,7 +20,7 @@
             <div class="col-12">
                 <div class="col-4 one-col-text has-button">
                     <article class="left">
-                        <h4 class="orange"><?= $data['lijeva_kolona_title']; ?></h4>
+                        <h4 class="orange" style="color: dimgrey; font-weight: 600;"><?= $data['lijeva_kolona_title']; ?></h4>
                         <span class="text">
                             <?= do_shortcode($data['lijeva_kolona_content']); ?>
                         </span>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-4 one-col-text">
                     <article class="middle">
-                        <h4 class="orange">
+                        <h4 class="orange" >
                             <?= $data['srednja_kolona_title']; ?>
                         </h4>
                         <span class="text">
@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-4 one-col-text has-button">
                     <article class="right">
-                        <h4 class="orange">
+                        <h4 class="orange" style="color: dimgrey; font-weight: 600;">
                             <?= $data['desna_kolona_title']; ?>
                         </h4>
                         <span class="text">
