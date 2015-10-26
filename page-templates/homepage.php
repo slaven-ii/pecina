@@ -28,9 +28,9 @@ get_header();
                         <div class="header-box" style=" top: 5%; bottom: none;">
                             <span class="hand-written" style="margin-left: -20px;"><?php _e('Radno vrijeme:', 'pecina'); ?></span>
                             <div class="home-box-inner">
-                                <span class="label">pon-pet:</span>
+                                <span class="label"><?php _e('pon-pet:', 'pecina'); ?></span>
                                 <span class="val" ><?php the_field('radno_vrijeme_tjedan'); ?></span>
-                                <span class="label">sub:</span>
+                                <span class="label"><?php _e('sub:', 'pecina'); ?></span>
                                 <span class="val"><?php the_field('radno_vrijeme_vikend'); ?></span>
                             </div>
                         </div>
