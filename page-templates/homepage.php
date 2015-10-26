@@ -26,7 +26,7 @@ get_header();
                 </span>
                     <figcaption>
                         <div class="header-box" style=" top: 5%; bottom: none;">
-                            <span class="hand-written" style="margin-left: -20px;">Radno vrijeme:</span>
+                            <span class="hand-written" style="margin-left: -20px;"><?php _e('Radno vrijeme:', 'pecina'); ?></span>
                             <div class="home-box-inner">
                                 <span class="label">pon-pet:</span>
                                 <span class="val" ><?php the_field('radno_vrijeme_tjedan'); ?></span>

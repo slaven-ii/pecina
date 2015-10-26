@@ -75,14 +75,16 @@
         </span>
 
         <span class="box-title">
-            Lajkajte nas <br/>
+            <?php _e('Lajkajte nas <br/>
             i pratite naše <br/>
             objave na <br/>
-            Facebooku
+            Facebooku', 'pecina'); ?>
+
         </span>
 
         <span class="text">
-            .. jer možda baš Vi dobijete poklon - besplatnu trajnicu po izboru!
+            <?php _e('.. jer možda baš Vi dobijete poklon - besplatnu trajnicu po izboru!', 'pecina'); ?>
+
         </span>
     </div>
 
